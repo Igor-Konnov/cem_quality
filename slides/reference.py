@@ -1,7 +1,7 @@
 # necessary imports - do not change
-import dash_html_components as html
+from dash import html
 from app import app
-import dash_core_components as dcc
+from dash import dcc
 import dash_bootstrap_components as dbc
 from dash.dependencies import Output, Input, State
 ###
